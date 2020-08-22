@@ -1,6 +1,6 @@
 # Movie Classifier
 
-A simple class project to classify the genre of movies by their plots. 4000 documents were used to train the current model (in Data directory.)
+A simple class project to classify the genre of movies by their plots. 4000 documents were used to train the current model (in Data directory.) Data-set used for this task was obtained from [Kaggle](https://www.kaggle.com/jrobischon/wikipedia-movie-plots).
 
 
 #### Path to training files:
@@ -28,3 +28,8 @@ usage: `python main.py mode [--doclimit] [--wordlimit]`
 
 - To train model on documents, run `python train --l i --w j`. i is the number of documents for each class that would be use in training, so 200 would result in 800 as there are 4 class. j specifies how many words should documents be trimmed to.
 - To test the trained model, run `python test --l i -n j`. i is the total number of documents to be tested. j is the number of iterations to run tests with shuffled data and finally to plot the accuracies.
+
+
+[Kaggle]: https://www.kaggle.com/jrobischon/wikipedia-movie-plots
+
+[]: https://www.kaggle.com/jrobischon/wikipedia-movie-plots
