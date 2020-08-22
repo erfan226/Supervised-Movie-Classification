@@ -1,0 +1,5 @@
+DATA_DIR = "Data/"
+TXT_EXT = ".txt"
+PROCESSED_DATA = "movie_plots_processed.csv"
+TEST_DATA = "Test_data"
+TEST_SPLIT_IDX = "test_start_idx"
