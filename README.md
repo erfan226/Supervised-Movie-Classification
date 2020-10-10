@@ -30,6 +30,4 @@ usage: `python main.py mode [--doclimit] [--wordlimit]`
 - To test the trained model, run `python test --l i -n j`. i is the total number of documents to be tested. j is the number of iterations to run tests with shuffled data and finally to plot the accuracies.
 
 
-[Kaggle]: https://www.kaggle.com/jrobischon/wikipedia-movie-plots
-
-[]: https://www.kaggle.com/jrobischon/wikipedia-movie-plots
+[https://www.kaggle.com/jrobischon/wikipedia-movie-plots]:(Kaggle)
